@@ -56,4 +56,30 @@ html {
     bottom: 2rem;
 }
 
+.user-profiles img.active {
+    border: 2px solid #ff7d3b;
+    padding: .2rem;
+}
+
+.user-reviews .review {
+    display: none;
+}
+
+.user-reviews .review.active {
+    display: block;
+    animation: show .4s linear;
+}
+
+@keyframes show {
+    0% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+
 @tailwind utilities;

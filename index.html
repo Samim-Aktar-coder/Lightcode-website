@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <!--!========== REMIX-ICON ==========-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./input.css">
@@ -86,7 +87,7 @@
     <main>
         <!--!=========== HOME =============-->
         <section class="section relative bg-color-primary-dark pt-32 lg:pt-10 overflow-hidden" id="home">
-            <div class="flex items-center flex-col lg:flex-row gap-16 min-h-[100vh] z-50 relative text-white">
+            <div class="flex items-center flex-col lg:flex-row sm:gap-16 gap-10 min-h-[100vh] z-50 relative text-white">
                 <div class="flex-1 text-center lg:text-left">
                     <h2 class="md:text-5xl text-4xl font-bold">Awesome App for Your Financial.</h2>
                     <p class="text-base pt-6 pb-10">This should be used to tell a story and let your users know a little
@@ -108,7 +109,7 @@
         </section>
 
         <!--!=========== FEATURES =============-->
-        <section class="section bg-color-primary-light text-white">
+        <section class="section bg-color-primary-light text-white" id="features">
             <h4 class="text-center text-base font-bold text-color-secondary mb-5">Our Future</h4>
             <h2 class="lg:w-1/2 md:w-4/5 w-full mx-auto text-center text-4xl md:text-5xl font-bold">Easy To Manage Your
                 All Payments By Our
@@ -146,6 +147,117 @@
         </section>
 
 
+        <!--!=========== SAVING =============-->
+        <section class="section relative bg-color-primary-dark overflow-hidden">
+            <div class="flex lg:flex-row flex-col items-center sm:gap-16 gap-10 relative z-50">
+                <div class="flex-1">
+                    <img src="./img/hero3.png" class="w-full h-full" alt="saving-money-img">
+                </div>
+                <div class="flex-1 text-white lg:text-left text-center">
+                    <h5 class="text-color-secondary text-base font-bold mb-6">Saving Money</h5>
+                    <h2 class="md:text-5xl text-4xl font-bold">Best Financing App To Save Your Money</h2>
+                    <p class="mt-5 mb-8">Best financing app ever in the world. Easy to use and very user friendly for
+                        mobile banking. You can control your card
+                        easily and send money some one just one click.</p>
+                    <button class="main-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="bg-blob bg-color-secondary left"></div>
+            <div class="bg-blob bg-color-blob right"></div>
+        </section>
+
+        <!--!=========== WORKS =============-->
+        <section class="section bg-color-primary-light text-white">
+            <h4 class="text-center text-base font-bold text-color-secondary mb-5">How it Works</h4>
+            <h2 class="text-center text-4xl md:text-5xl font-bold">Grow Up Your Money Saving</h2>
+            <div class="mt-12 flex items-center justify-between flex-col md:flex-row gap-y-10">
+
+                <div class="md:basis-[33%] basis-full flex flex-col gap-4 items-center py-14 px-5 relative">
+                    <span
+                        class="bg-color-primary-dark hover:bg-color-secondary duration-300 md:w-20 w-14 lg:h-20 h-14 rounded-lg flex items-center justify-center text-5xl font-semibold lg:after:content-[''] lg:after:bg-[url('./img/line.png')] lg:after:absolute lg:after:top-[20%] lg:after:-right-[3%] lg:after:translate-x-1/2  lg:after:h-7 lg:after:w-44 xl:after:w-52 lg:after:bg-no-repeat">1</span>
+                    <h3 class="text-xl font-bold text-center">Install The App</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+                <div class="md:basis-[33%] basis-full flex flex-col gap-4 items-center py-14 px-5 relative">
+                    <span
+                        class="bg-color-secondary duration-300 md:w-20 w-14 lg:h-20 h-14 rounded-lg flex items-center justify-center text-5xl font-semibold lg:after:content-[''] lg:after:bg-[url('./img/line-bottom.png')] lg:after:absolute lg:after:top-2/5 lg:after:-right-[3%] lg:after:translate-x-1/2 lg:after:h-7 lg:after:w-44 xl:after:w-52 lg:after:bg-no-repeat">2</span>
+                    <h3 class="text-xl font-bold text-center">Setup Your Profile</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+
+                <div class="md:basis-[33%] basis-full flex flex-col gap-4 items-center py-14 px-5">
+                    <span
+                        class="bg-color-primary-dark hover:bg-color-secondary duration-300 md:w-20 w-14 lg:h-20 h-14 rounded-lg flex items-center justify-center text-5xl font-semibold">3</span>
+                    <h3 class="text-xl font-bold text-center">Enjoy The Features!</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--!============== REVIEWS ================-->
+        <section class="section bg-color-primary-dark text-white" id="testimonials">
+            <h4 class="text-center text-base font-bold text-color-secondary mb-5">User Review</h4>
+            <h2 class="lg:w-3/5 md:w-4/5 w-full mx-auto text-center text-4xl md:text-5xl font-bold">What Clients Say
+                About Our App After Use It</h2>
+
+            <div class=" flex items-center justify-center md:gap-8 gap-5 flex-wrap my-16 user-profiles">
+                <img src="./img/user1.jpg" class="md:w-20 w-14 lg:h-20 h-14 duration-100 rounded-full cursor-pointer active"
+                    alt="user-img">
+                <img src="./img/user2.jpg" class="md:w-20 w-14 lg:h-20 h-14 duration-100 rounded-full cursor-pointer" alt="user-img">
+                <img src="./img/user3.jpg" class="md:w-20 w-14 lg:h-20 h-14 duration-100 rounded-full cursor-pointer" alt="user-img">
+                <img src="./img/user4.jpg" class="md:w-20 w-14 lg:h-20 h-14 duration-100 rounded-full cursor-pointer" alt="user-img">
+                <img src="./img/user5.jpg" class="md:w-20 w-14 lg:h-20 h-14 duration-100 rounded-full cursor-pointer" alt="user-img">
+            </div>
+
+            <div class="user-reviews">
+
+                <div class="review text-center lg:w-4/5 w-full mx-auto active">
+                    <h4 class="md:text-2xl text-xl font-semibold">"This should be used to tell a story and include any
+                        testimonials you might have about your product or service for your
+                        clients"!</h4>
+                    <h5 class="text-lg text-color-secondary font-semibold mt-7 mb-1">Markin Nesus</h5>
+                    <p class="text-base">IOS developer</p>
+                </div>
+
+                <div class="review text-center lg:w-4/5 w-full mx-auto">
+                    <h4 class="md:text-2xl text-xl font-semibold">"This should be used to tell a story and include any
+                        testimonials you might have about your product or service for your
+                        clients"!</h4>
+                    <h5 class="text-lg text-color-secondary font-semibold mt-7 mb-1">Vera Duncan</h5>
+                    <p class="text-base">Flutter developer</p>
+                </div>
+
+                <div class="review text-center lg:w-4/5 w-full mx-auto">
+                    <h4 class="md:text-2xl text-xl font-semibold">"This should be used to tell a story and include any
+                        testimonials you might have about your product or service for your
+                        clients"!</h4>
+                    <h5 class="text-lg text-color-secondary font-semibold mt-7 mb-1">Pirtle Karol</h5>
+                    <p class="text-base">Android developer</p>
+                </div>
+
+                <div class="review text-center lg:w-4/5 w-full mx-auto">
+                    <h4 class="md:text-2xl text-xl font-semibold">"This should be used to tell a story and include any
+                        testimonials you might have about your product or service for your
+                        clients"!</h4>
+                    <h5 class="text-lg text-color-secondary font-semibold mt-7 mb-1">Mark Joe</h5>
+                    <p class="text-base">React developer</p>
+                </div>
+
+                <div class="review text-center lg:w-4/5 w-full mx-auto">
+                    <h4 class="md:text-2xl text-xl font-semibold">"This should be used to tell a story and include any
+                        testimonials you might have about your product or service for your
+                        clients"!</h4>
+                    <h5 class="text-lg text-color-secondary font-semibold mt-7 mb-1">Leila Domniuc</h5>
+                    <p class="text-base">Angular developer</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
@@ -153,45 +265,67 @@
 
 
     <!--!=========== Custom JS ==========-->
-    <!-- <script src="./script.js"></script> -->
     <script>
         //!============ Open mobile menu ===========
-            let menuOpenBtn = document.querySelector('.menu-open');
-            let menuCloseBtn = document.querySelector('.menu-close');
-            let menu = document.querySelector('.mobile-menu');
-            let navLinks = document.querySelectorAll('.nav-list li');
+        let menuOpenBtn = document.querySelector('.menu-open');
+        let menuCloseBtn = document.querySelector('.menu-close');
+        let menu = document.querySelector('.mobile-menu');
+        let navLinks = document.querySelectorAll('.nav-list li');
 
-            menuOpenBtn.addEventListener('click', () => {
-                menu.classList.add('show');
-            });
+        menuOpenBtn.addEventListener('click', () => {
+            menu.classList.add('show');
+        });
 
 
-            menuCloseBtn.addEventListener('click', () => {
+        menuCloseBtn.addEventListener('click', () => {
+            menu.classList.remove('show');
+        });
+
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
                 menu.classList.remove('show');
             });
+        });
 
+        //!============= SCROLL-NAVBAR============
+        let navbar = document.querySelector('.navbar');
 
-            navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    menu.classList.remove('show');
-                });
+        window.addEventListener('scroll', () => {
+            let pageY = window.scrollY;
+            if (pageY > 70) {
+                navbar.classList.add('bg-color-primary-dark');
+                navbar.classList.add('border-b');
+                navbar.classList.add('border-b-color-gray');
+            } else {
+                navbar.classList.remove('bg-color-primary-dark');
+                navbar.classList.remove('border-b');
+                navbar.classList.remove('border-b-color-gray');
+            }
+        });
+
+        //!=============== REVIEW =============
+        let userProfiles = document.querySelectorAll('.user-profiles img');
+        let reviews = document.querySelectorAll('.review');
+
+        function removeAllActive() {
+            userProfiles.forEach(profile => {
+                profile.classList.remove('active');
             });
-
-            //!============= SCROLL-NAVBAR============
-            let navbar = document.querySelector('.navbar');
-
-            window.addEventListener('scroll', () => {
-                let pageY = window.scrollY;
-                if (pageY > 70) {
-                    navbar.classList.add('bg-color-primary-dark');
-                    navbar.classList.add('border-b');
-                    navbar.classList.add('border-b-color-gray');
-                } else {
-                    navbar.classList.remove('bg-color-primary-dark');
-                    navbar.classList.remove('border-b');
-                    navbar.classList.remove('border-b-color-gray');
-                }
+            reviews.forEach(review => {
+                review.classList.remove('active');
             });
+        }
+
+        userProfiles.forEach(profile => {
+            profile.addEventListener('click', () => {
+                let i = Array.from(userProfiles).indexOf(profile);
+                removeAllActive();
+                profile.classList.add('active');
+                reviews[i].classList.add('active');
+            });
+        })
+
     </script>
 </body>
 
