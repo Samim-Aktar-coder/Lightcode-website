@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--!========== REMIX-ICON ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./input.css">
+    <!--!========== BOOTSTRAP-ICON ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!--!=========== Custom JS ==========-->
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--!============ HEADER =============-->
+    <header class="fixed top-0 left-0 w-full h-20 z-[99]">
+        <nav class="h-full flex items-center justify-between lg:px-20 sm:px-10 px-2 relative navbar transition">
+            <div>
+                <h2 class="text-color-white text-3xl font-bold">Light<span class="text-color-secondary">Code.</span>
+                </h2>
+            </div>
+
+            <ul class="hidden lg:flex list-none items-center gap-6">
+                <li>
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+                <li>
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li>
+                    <button class="main-btn">Free
+                        Trial</button>
+                </li>
+            </ul>
+
+            <i class="ri-menu-line block lg:hidden cursor-pointer text-3xl text-color-white menu-open"></i>
+
+            <div class="w-full fixed top-0 left-0 bottom-0 mobile-menu lg:hidden bg-color-primary-dark">
+
+                <i class="ri-close-line cursor-pointer absolute top-5 right-8 text-4xl text-color-white menu-close"></i>
+
+                <ul class="flex list-none items-center justify-center flex-col w-full h-full gap-10 nav-list">
+                    <li>
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li>
+                        <button class="main-btn">Free
+                            Trial</button>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--!=============== MAIN =================-->
+    <main>
+        <!--!=========== HOME =============-->
+        <section class="section relative bg-color-primary-dark pt-32 lg:pt-10 overflow-hidden" id="home">
+            <div class="flex items-center flex-col lg:flex-row gap-16 min-h-[100vh] z-50 relative text-white">
+                <div class="flex-1 text-center lg:text-left">
+                    <h2 class="md:text-5xl text-4xl font-bold">Awesome App for Your Financial.</h2>
+                    <p class="text-base pt-6 pb-10">This should be used to tell a story and let your users know a little
+                        more about app and it’s use,
+                        How can benefit them.</p>
+                    <button class="main-btn">Download App</button>
+                </div>
+
+                <div class="flex-1">
+                    <img src="./img/hero4.png" class="w-full h-full" alt="hero-img">
+                </div>
+            </div>
+
+
+
+            <div class="bg-blob bg-color-secondary right"></div>
+            <div class="bg-blob bg-color-blob left"></div>
+
+        </section>
+
+        <!--!=========== FEATURES =============-->
+        <section class="section bg-color-primary-light text-white">
+            <h4 class="text-center text-base font-bold text-color-secondary mb-5">Our Future</h4>
+            <h2 class="lg:w-1/2 md:w-4/5 w-full mx-auto text-center text-4xl md:text-5xl font-bold">Easy To Manage Your All Payments By Our
+                App</h2>
+
+            <div class="flex items-center justify-between flex-wrap mt-16 gap-y-12">
+
+                <div
+                    class="lg:basis-[31%] md:basis-[46%] basis-full border-2 border-color-gray flex items-center flex-col gap-5 py-20 px-8 rounded-xl hover:bg-color-primary-dark duration-300 ease-linear cursor-pointer">
+                    <span class="bg-color-secondary w-16 h-16 rounded-lg flex items-center justify-center"><i
+                            class="bi bi-calendar2-week-fill text-3xl"></i></span>
+                    <h3 class="text-xl font-bold text-center">Expense Trackering</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+
+                <div
+                    class="lg:basis-[31%] md:basis-[46%] basis-full border-2 border-color-gray flex items-center flex-col gap-5 py-20 px-8 rounded-xl bg-color-primary-dark duration-300 ease-linear cursor-pointer">
+                    <span class="bg-color-secondary w-16 h-16 rounded-lg flex items-center justify-center"><i
+                            class="bi bi bi-graph-up text-3xl"></i></span>
+                    <h3 class="text-xl font-bold text-center">Finance Snapshot</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+
+                <div
+                    class="lg:basis-[31%] md:basis-[46%] basis-full border-2 border-color-gray flex items-center flex-col gap-5 py-20 px-8 rounded-xl hover:bg-color-primary-dark duration-300 ease-linear cursor-pointer">
+                    <span class="bg-color-secondary w-16 h-16 rounded-lg flex items-center justify-center"><i
+                            class="bi bi-telephone-fill text-3xl"></i></span>
+                    <h3 class="text-xl font-bold text-center">Support 24/24</h3>
+                    <p class="text-center text-lg">We use an application designed a testing gnose to keep away</p>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+</body>
+
+</html>

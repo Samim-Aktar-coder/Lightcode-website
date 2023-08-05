@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Dela+Gothic+One&family=Gentium+Book+Plus:wght@400;700&family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@500;600;700&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+::-webkit-scrollbar {
+    background-color: #020726;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff7d3b;
+    border-radius: .5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    @apply text-white lg:text-[1.1rem] sm:text-2xl text-lg font-normal hover:text-color-secondary duration-300 ease-linear
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.show {
+    display: block;
+}
+
+.main-btn {
+    @apply text-white text-[1.1rem] font-medium bg-color-secondary px-9 py-3 rounded-lg hover:opacity-80 duration-300 ease-linear
+}
+
+.section {
+    @apply lg:px-20 sm:px-10 px-2 md:py-14 py-10
+}
+
+.bg-blob {
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    filter: blur(90px);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.left {
+    top: 7rem;
+    left: 4rem;
+}
+
+.right {
+    right: 5rem;
+    bottom: 2rem;
+}
+
+@tailwind utilities;
