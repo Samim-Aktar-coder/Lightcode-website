@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./input.css">
     <!--!========== BOOTSTRAP-ICON ==========-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-   
+
     <title>Document</title>
 </head>
 
@@ -110,7 +110,8 @@
         <!--!=========== FEATURES =============-->
         <section class="section bg-color-primary-light text-white">
             <h4 class="text-center text-base font-bold text-color-secondary mb-5">Our Future</h4>
-            <h2 class="lg:w-1/2 md:w-4/5 w-full mx-auto text-center text-4xl md:text-5xl font-bold">Easy To Manage Your All Payments By Our
+            <h2 class="lg:w-1/2 md:w-4/5 w-full mx-auto text-center text-4xl md:text-5xl font-bold">Easy To Manage Your
+                All Payments By Our
                 App</h2>
 
             <div class="flex items-center justify-between flex-wrap mt-16 gap-y-12">
@@ -152,7 +153,46 @@
 
 
     <!--!=========== Custom JS ==========-->
-    <script src="./script.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+        //!============ Open mobile menu ===========
+            let menuOpenBtn = document.querySelector('.menu-open');
+            let menuCloseBtn = document.querySelector('.menu-close');
+            let menu = document.querySelector('.mobile-menu');
+            let navLinks = document.querySelectorAll('.nav-list li');
+
+            menuOpenBtn.addEventListener('click', () => {
+                menu.classList.add('show');
+            });
+
+
+            menuCloseBtn.addEventListener('click', () => {
+                menu.classList.remove('show');
+            });
+
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    menu.classList.remove('show');
+                });
+            });
+
+            //!============= SCROLL-NAVBAR============
+            let navbar = document.querySelector('.navbar');
+
+            window.addEventListener('scroll', () => {
+                let pageY = window.scrollY;
+                if (pageY > 70) {
+                    navbar.classList.add('bg-color-primary-dark');
+                    navbar.classList.add('border-b');
+                    navbar.classList.add('border-b-color-gray');
+                } else {
+                    navbar.classList.remove('bg-color-primary-dark');
+                    navbar.classList.remove('border-b');
+                    navbar.classList.remove('border-b-color-gray');
+                }
+            });
+    </script>
 </body>
 
 </html>
