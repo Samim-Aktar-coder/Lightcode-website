@@ -1,4 +1,4 @@
-[![MasterHead](https://raw.githubusercontent.com/Samim-Aktar-coder/Lightcode-website/main/Github%20Banner.png)](https://my-lightcode.netlify.app)
+[![MasterHead](https://image-link-website.netlify.app/img/lightcode.png)](https://my-lightcode.netlify.app)
 
 ### Live: [Click Here](https://my-lightcode.netlify.app)
 
@@ -16,7 +16,7 @@ Tech stack I use to build this app:
 
 ## 🙋‍♂️ Author
 
-- [@SamimAktar](https://github.com/Samim-Aktar-coder)
+- [@SamimAktar](https://github.com/samimaktar-coder)
 
 ## Installation
 
